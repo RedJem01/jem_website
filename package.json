@@ -1,0 +1,11 @@
+{
+    "name": "jem_website",
+    "version": "1.0.0",
+    "description": "A website showing all of my projects and information about me (Jemima Stobart).",
+    "main": "index.js",
+    "author": "Jemima Stobart",
+    "dependencies": {
+        "name": "serve",
+        "version": "14.2.3"
+    }
+}
