@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Benjy Stobart</title>
+  <link href="index.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body class="home">
+  <aside class="mdc-drawer">
+    <div class="mdc-drawer__header">
+      <h1 class="benjy-title">Benjy Stobart</h1>
+    </div>
+    <div class="mdc-drawer__content">
+      <nav class="mdc-list">
+        <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__ripple"></span>
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">person</i>
+            <span class="mdc-list-item__text">About me</span>
+        </a>
+        <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__ripple"></span>
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">music_note</i>
+            <span class="mdc-list-item__text">Songs</span>
+        </a>
+        <a class="mdc-list-item mdc-list-item--activated" href="#" aria-selected="true">
+          <span class="mdc-list-item__ripple"></span>
+          <i class="material-icons mdc-list-item__graphic" aria-hidden="true">headphones</i>
+          <span class="mdc-list-item__text">Artists</span>
+        </a>
+      </nav>
+    </div>
+  </aside>
+  <div class="mdc-drawer-app-content">
+    <header class="mdc-top-app-bar app-bar" id="app-bar">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <span class="mdc-top-app-bar__title">Artists</span>
+        </section>
+      </div>
+    </header>
+
+    <main class="main-content" id="main-content">
+      <div class="mdc-top-app-bar--fixed-adjust">
+        App Content
+      </div>
+    </main>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
