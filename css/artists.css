@@ -22,7 +22,7 @@ p {
 }
 
 .nav-link {
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .v-line {
@@ -37,11 +37,12 @@ p {
 
 @media (max-width: 576px) {
   .nav-item {
-      width: 100%;
-      text-align: left;
+    width: 100%;
+    text-align: left;
   }
-
   .v-line {
-      display: none;
+    display: none;
   }
 }
+
+/*# sourceMappingURL=artists.css.map */

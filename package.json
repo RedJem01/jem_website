@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "A website for a music portfolio.",
     "main": "index.js",
+    "scripts": {
+        "start": "sass scss/artists.scss css/artists.css && sass scss/index.scss css/index.css && sass scss/songs.scss css/songs.css && serve"
+    },
     "author": "Jemima Stobart",
     "dependencies": {
         "serve": "14.2.3",
