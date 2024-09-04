@@ -4,7 +4,7 @@
     "description": "A website for a music portfolio.",
     "main": "index.js",
     "scripts": {
-        "start": "sass scss/artists.scss css/artists.css && sass scss/index.scss css/index.css && sass scss/songs.scss css/songs.css && serve"
+        "start": "sass scss/artists.scss css/artists.css && sass scss/contact.scss css/contact.css && sass scss/index.scss css/index.css && sass scss/songs.scss css/songs.css && serve"
     },
     "author": "Jemima Stobart",
     "dependencies": {
